@@ -1,0 +1,9 @@
+:root {
+    --primary: #1e90ff;
+    --secondary: #57cbcc;
+    --white:#fff;
+    --black: #1d2024;
+    --border-color: rgba(236, 239, 241, 0.07);
+    --primary-font:Quattrocento Sans, sans-serif;
+    --icon-font: themefisher-font;
+}

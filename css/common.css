@@ -1,0 +1,284 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    font-family: "Quattrocento Sans", sans-serif;
+    color: #101010;
+}
+
+p {
+    font-family: "Quattrocento Sans", sans-serif;
+}
+
+/*=================================================================
+  Basic Setup
+==================================================================*/
+::-moz-selection {
+    /* Code for Firefox */
+    color: #fff;
+    background: #57cbcc;
+}
+
+::selection {
+    color: #fff;
+    background: #57cbcc;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure {
+    margin: 0;
+}
+
+a {
+    color: #fff;
+    transition: all 0.3s ease-in 0s;
+}
+
+iframe {
+    border: 0;
+}
+
+a,
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+a:focus,
+a:hover {
+    color: #6CB670;
+}
+
+.kill-margin-bottom {
+    margin-bottom: 0 !important;
+}
+
+.padding-0 {
+    padding: 0 !important;
+}
+
+.btn {
+    background-color: transparent;
+    color: var(--primary);
+    padding: 10px 30px;
+    border-radius: 0;
+    transition: all 0.3s ease-in 0s;
+}
+
+.btn:focus {
+    color: #fff;
+    box-shadow: none;
+}
+
+.btn-transparent {
+    border: 1px solid #4e595f;
+}
+
+.btn-transparent:hover,
+.btn-transparent:focus {
+    background-color: var(--secondary);
+    border-color: #57cbcc !important;
+    color: #fff;
+}
+
+.form-control {
+    background-color: #2f383d;
+    border-radius: 0;
+    padding: 5px 10px;
+    border: 0 none;
+    color: #ddd;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0;
+}
+
+.form-control::-webkit-input-placeholder {
+    /*  Chrome, Safari, Opera  */
+    color: #ddd;
+}
+
+.form-control:-moz-placeholder {
+    /* Firefox 18- */
+    color: #ddd;
+}
+
+.form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #ddd;
+}
+
+.form-control:-ms-input-placeholder {
+    /*  Internet Explorer  */
+    color: #ddd;
+}
+
+.border {
+    border-top: 2px solid rgba(236, 239, 241, 0.07);
+    height: 1px;
+    margin: 15px auto 0;
+    position: relative;
+    width: 30%;
+}
+
+.border:before {
+    background-color: #fff;
+    content: "";
+    height: 6px;
+    left: 50%;
+    margin-left: -20px;
+    position: absolute;
+    top: -4px;
+    width: 50px;
+    background-color: var(--primary);
+}
+
+.color {
+    color: var(--primary);
+}
+
+.sub-title {
+    padding: 0 0 50px;
+}
+
+.sub-title>h3 {
+    border-left: 3px solid #ddd;
+    border-right: 3px solid #ddd;
+    display: inline-block;
+    padding: 5px 25px;
+    text-transform: uppercase;
+}
+
+.btn.active:focus,
+.btn:active:focus,
+.btn:focus {
+    outline: 0;
+}
+
+
+
+
+.parallax-section {
+    background-attachment: fixed !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure {
+    margin: 0;
+}
+
+a {
+    transition: all 0.2s ease-in 0s;
+}
+
+iframe {
+    border: 0;
+}
+
+a,
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+a:focus,
+a:hover {
+    color: var(--secondary);
+}
+
+.btn-main {
+    background: var(--primary);
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 35px;
+    text-transform: uppercase;
+}
+
+.btn-main:hover {
+    background: var(--secondary);
+    color: #fff;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+@media (max-width: 480px) {
+    .section {
+        padding: 50px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 50px 0;
+    }
+}
+
+.section-sm {
+    padding: 70px 0;
+}
+
+.section-xs {
+    padding: 50px 0;
+}
+
+.btn:focus {
+    color: #fff;
+}
+
+#home {
+    position: relative;
+}
+
+.btn.active:focus,
+.btn:active:focus,
+.btn:focus {
+    outline: 0;
+}
+
+.parallax-section {
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+

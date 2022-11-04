@@ -1385,3 +1385,265 @@ body {
 width: 130px;
 height: 155px;
 border-color: var(--primary);}
+
+
+/* contact */
+
+.contact-us {
+    padding-top: 50px;
+}
+
+.contact-form {
+    margin-bottom: 60px;
+
+    
+
+}
+.form-control {
+    background-color: transparent;
+    border: 1px solid var(--border-color);
+    height: 45px;
+}
+textarea.form-control {
+    padding: 10px;
+    height: 120px;
+}
+
+
+.contact-form input:hover,
+.contact-form textarea:hover,
+#contact-submit:hover {
+    border-color: var(--primary);
+}
+
+#contact-submit {
+    border: 1px solid var(--primary);
+    background: var(--secondary);
+    padding: 12px 0;
+    width: 100%;
+    margin: 0;
+}
+
+
+
+
+.contact-info p {
+    margin-bottom: 25px;
+}
+
+.con-info {
+    margin-bottom: 20px;
+}
+
+.con-info i,
+.con-info span {
+    float: left;
+}
+
+.con-info span {
+    margin: -5px 0 0 15px;
+}
+
+.error {
+    display: none;
+    padding: 10px;
+    color: #D8000C;
+    border-radius: 4px;
+    font-size: 13px;
+    background-color: #FFBABA;
+}
+
+.success {
+    background-color: #6cb670;
+    border-radius: 4px;
+    color: #fff;
+    display: none;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.form-control {
+    background-color: #2f383d;
+    border-radius: 0;
+    padding: 5px 10px;
+    border: 0 none;
+    color: #ddd;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0;
+}
+
+.form-control::-webkit-input-placeholder {
+    /*  Chrome, Safari, Opera  */
+    color: #ddd;
+}
+
+.form-control:-moz-placeholder {
+    /* Firefox 18- */
+    color: #ddd;
+}
+
+.form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #ddd;
+}
+
+.form-control:-ms-input-placeholder {
+    /*  Internet Explorer  */
+    color: #ddd;
+}
+textarea.form-control {
+    padding: 10px;
+    height: 120px;
+}
+
+
+
+.social-icon {
+    padding: 30px 0 35px;
+  
+}
+
+.social-icon ul {
+    text-align: center;
+
+}
+
+.social-icon ul li {
+    margin-bottom: 4px;
+
+}
+
+.social-icon ul li:hover a {
+    background-color: #57cbcc;
+    transform: rotateY(0deg);
+
+}
+
+.social-icon ul li:hover a i {
+    color: #fff;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    transform: rotateY(0deg);
+    
+}
+
+.social-icon ul li a {
+    background-color: #26292e;
+    border: 1px solid transparent;
+    display: block;
+    height: 50px;
+    width: 50px;
+    transform: rotateY(180deg);
+    transition: all 400ms ease-out 0s;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .social-icon ul li a {
+        width: 55px;
+        height: 55px;
+    }
+}
+
+.social-icon ul li a i {
+    color: #55606a;
+    display: inline-block;
+    font-size: 32px;
+    line-height: 50px;
+    margin: 0;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    transform: rotateY(180deg);
+    transition: all 400ms ease-out 0s;
+}
+
+@media (max-width: 768px) {
+    .social-icon ul li a i {
+        line-height: 55px;
+        font-size: 25px;
+    }
+}
+
+
+
+.email-signature {
+    background: linear-gradient(to right bottom, #fff 49%, #f5f5f5 50%);
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    padding: 15px 10px;
+    margin: 0 auto;
+    border-left: 25px solid #20bf6b;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+
+
+.email-signature .signature-details {
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.email-signature .title {
+    color: #20bf6b;
+    font-size: 27px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.email-signature .post {
+    color: #333;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.email-signature .signature-content {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.email-signature .signature-content li {
+    color: #333;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.email-signature .signature-content li span {
+    color: #20bf6b;
+    font-size: 15px;
+    margin: 0 5px;
+}
+
+.email-signature .icon {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.email-signature .icon li {
+    display: inline-block;
+    margin: 0 7px;
+}
+
+.email-signature .icon li a {
+    color: #20bf6b;
+    font-size: 17px;
+    transition: all 0.3s ease 0s;
+}
+
+.email-signature .icon li a:hover {
+    color: #333;
+    text-shadow: 0 0 3px #20bf6b;
+}
+
+@media screen and (max-width:300px) {
+    .email-signature {
+        width: 100%;
+    }
+}

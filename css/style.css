@@ -1431,7 +1431,16 @@ border-color: var(--primary);}
     top: 50%;
     
 }
-
+.email-signature:before {
+    content: '';
+    background: linear-gradient(to right, #169eed,#1e90ff,#03459E);
+    height: 100%;
+    width: 57%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+}
 @media screen and (max-width:767px) {
     .email-signature {
         width: 250px;

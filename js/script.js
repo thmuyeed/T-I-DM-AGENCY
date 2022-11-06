@@ -324,3 +324,22 @@ $(document).ready(function(){
     
 });
 
+(function() {
+
+  $('.btn').click(function() {
+
+    $(this).toggleClass('active');
+
+    return $('.box').toggleClass('open');
+
+  });
+
+}).call(this);
+
+
+// extra
+
+function actionToggle() {
+  let action = document.querySelector('.contact-action');
+  action.classList.toggle('open');
+}

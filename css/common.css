@@ -82,6 +82,7 @@ a:hover {
 
 .btn-transparent {
     border: 1px solid #4e595f;
+    
 }
 
 .btn-transparent:hover,
@@ -277,8 +278,5 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
-
 
 

@@ -32,13 +32,7 @@
 	/* ========================================================================= */
 	/*	Post image slider
 	/* ========================================================================= */
-	$('#post-thumb, #gallery-post').slick({
-		infinite: true,
-		arrows: false,
-		autoplay: true,
-		autoplaySpeed: 4000
-
-	});
+	
 	$('#features').slick({
 		infinite: true,
 		arrows: false,
@@ -111,17 +105,7 @@
 		fixedContentPos: true
 	});
 
-	/* ========================================================================= */
-	/*	Testimonial Carousel
-	/* =========================================================================  */
-	//Init the carousel
-	$('#testimonials').slick({
-		infinite: true,
-		arrows: false,
-		autoplay: true,
-		autoplaySpeed: 4000
-	});
-
+	
 
 	/* ========================================================================= */
 	/*	Smooth Scroll
@@ -313,14 +297,7 @@ $(document).ready(function(){
             $('.dp-name-8').addClass('look');
             $('.dp-name-8').removeClass('hide-dp-bottom');             
 		});
-		$('.li-quote-9').click(function (e) { 
-            e.stopPropagation();
-            $(".look").addClass('hide-dp-top');
-            $(".hide-dp-top").removeClass('look');
-            $('.dp-name-8').addClass('look');
-            $('.dp-name-8').removeClass('hide-dp-bottom');             
-        });
-           
+		
     
 });
 
@@ -337,9 +314,28 @@ $(document).ready(function(){
 }).call(this);
 
 
-// extra
+// type.js
+var typed = new Typed('.type', {
+    strings: ['Business','Traffic',
+        'Leads','Revenue','Profit'],
+    typeSpeed: 100,
+    backSpeed: 60,
+    startDelay: 30,
+    loop:true
+  
+});
 
-function actionToggle() {
-  let action = document.querySelector('.contact-action');
-  action.classList.toggle('open');
-}
+// protect copy
+
+// $(document).ready(function () {
+//     //to disable the entire page
+//     $("body").on("contextmenu",function(e){
+//         return false;
+//     });
+    
+//     //to disable a section
+//     $("#id").on("contextmenu",function(e){
+//         return false;
+//     });
+// });
+

@@ -530,10 +530,15 @@ font-family: 'Poppins', sans-serif;
 /*=================================================================
   Our Team
 ==================================================================*/
+.member-meta{
+    color: #111;
+    z-index: 9999;
+}
 .team-member {
-    background-color:var(--primary);
+    background-color:#51a0ef;
     margin: 15px 0;
-    border: 2px solid var(--black);
+    border: 2px solid var(--secondary);
+    
 }
 
 .team-member:hover .mask {
@@ -1408,10 +1413,11 @@ border-color: var(--primary);}
 .email-signature .signature-content li a {
     color: black;
     margin-left: 10px;
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: 600;
 }
 .email-signature .signature-content li i {
-    color: #111;
+    color: #fff;
     background-color: var(--secondary);
     font-size: 15px;
     text-align: center;
@@ -1478,7 +1484,9 @@ border-color: var(--primary);}
 ==================================================================*/
 #our-team{
     background-color: rgba(162, 162, 162, 0.3);
+   
 }
+
 .skill-bar  {
     font-size: 18px;
     margin-top: 80px;
@@ -1486,25 +1494,42 @@ border-color: var(--primary);}
     
 }
 
-.skill-bar p span {
-    font-style: italic;
-    font-size: 30px;
-    color: var(--primary);
-    display: inline-block;
-    vertical-align: middle;
+.progress-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 30px;
 }
 
-.skill-bar .progress {
-    height: 6px;
-    border-radius: 0;
+.progress {
+    height: 17px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin-bottom: 30px;
+    overflow: visible;
+    position: relative;
 }
 
-.skill-bar .progress .progress-bar {
-    background: var(--primary)
+.progress .progress-bar {
+    border-radius: 15px;
+    box-shadow: none;
+    position: relative;
+    animation: animate-positive 2s;
 }
 
-.skill-bar li:not(:last-child) {
-    margin-bottom: 25px;
+
+
+
+@-webkit-keyframes animate-positive {
+    0% {
+        width: 0;
+    }
+}
+
+@keyframes animate-positive {
+    0% {
+        width: 0;
+    }
 }
 
 /* footer */
